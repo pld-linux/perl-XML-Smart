@@ -5,12 +5,12 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	XML
 %define	pnam	Smart
-Summary:	A smart, easy and powerful way to access/create XML files/data
-Summary(pl):	Zgrabny, ³atwy i potê¿ny sposób dostêpu i tworzenia plików/danych XML
+Summary:	XML::Smart - a smart, easy and powerful way to access/create XML files/data
+Summary(pl):	XML::Smart - zgrabny, ³atwy i potê¿ny sposób dostêpu i tworzenia plików/danych XML
 Name:		perl-XML-Smart
 Version:	1.5.9
 Release:	1
-# Same as Perl
+# Same as perl
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
