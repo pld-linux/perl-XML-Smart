@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	Smart
+%define		pdir	XML
+%define		pnam	Smart
 Summary:	XML::Smart - a smart, easy and powerful way to access/create XML files/data
 Summary(pl):	XML::Smart - zgrabny, ³atwy i potê¿ny sposób dostêpu i tworzenia plików/danych XML
 Name:		perl-XML-Smart
