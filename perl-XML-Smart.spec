@@ -8,13 +8,13 @@
 Summary:	XML::Smart - a smart, easy and powerful way to access/create XML files/data
 Summary(pl):	XML::Smart - zgrabny, ³atwy i potê¿ny sposób dostêpu i tworzenia plików/danych XML
 Name:		perl-XML-Smart
-Version:	1.6.8
-Release:	2
+Version:	1.6.9
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	98921864fce3130ed2edb1bde55a6602
+# Source0-md5:	648309c0d613ddaca6f6b16e9f13c81d
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-Object-MultiType >= 0.03
