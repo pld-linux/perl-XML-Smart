@@ -10,8 +10,8 @@ Summary(pl):	XML::Smart - zgrabny, ³atwy i potê¿ny sposób dostêpu i tworzenia pl
 Name:		perl-XML-Smart
 Version:	1.5.9
 Release:	1
-# Same as perl
-License:	GPL or Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	f15a997048f0d873921257f9f5cd4069
@@ -50,8 +50,8 @@ formatu zwracanych danych itp.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-
 %{__make}
+
 %{?with_tests:echo n | %{__make} test}
 
 %install
