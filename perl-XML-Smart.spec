@@ -9,7 +9,7 @@ Summary:	XML::Smart - a smart, easy and powerful way to access/create XML files/
 Summary(pl):	XML::Smart - zgrabny, ³atwy i potê¿ny sposób dostêpu i tworzenia plików/danych XML
 Name:		perl-XML-Smart
 Version:	1.6.8
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -59,6 +59,9 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
+
+# get rid of pod documentation
+rm -f $RPM_BUILD_ROOT%{perl_vendorlib}/XML/Smart/*.{pod,epod}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
