@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Smart
 Summary:	XML::Smart - a smart, easy and powerful way to access/create XML files/data
-Summary(pl):	XML::Smart - zgrabny, ³atwy i potê¿ny sposób dostêpu i tworzenia plików/danych XML
+Summary(pl.UTF-8):   XML::Smart - zgrabny, Å‚atwy i potÄ™Å¼ny sposÃ³b dostÄ™pu i tworzenia plikÃ³w/danych XML
 Name:		perl-XML-Smart
 Version:	1.6.9
 Release:	1
@@ -32,16 +32,16 @@ You also have extra resources, like a search for nodes by attribute,
 selection of an attribute value in each multiple node, change the
 returned format, etc...
 
-%description -l pl
-Ten modu³ ma ³atwy sposób na dostêp i tworzenie danych XML. Jest
-oparty na drzewie haszy tworzonym z danych XML i umo¿liwia dynamiczny
-dostêp do nich z u¿yciem perlowej sk³adni dla haszy i tablic, bez
-potrzeby pilnowania, czy w danym drzewie znajduj± siê hasze czy
-tablice. Innymi s³owy, ka¿dy wêze³ w drzewie funkcjonuje jako hasz i
-tablica jednocze¶nie!
+%description -l pl.UTF-8
+Ten moduÅ‚ ma Å‚atwy sposÃ³b na dostÄ™p i tworzenie danych XML. Jest
+oparty na drzewie haszy tworzonym z danych XML i umoÅ¼liwia dynamiczny
+dostÄ™p do nich z uÅ¼yciem perlowej skÅ‚adni dla haszy i tablic, bez
+potrzeby pilnowania, czy w danym drzewie znajdujÄ… siÄ™ hasze czy
+tablice. Innymi sÅ‚owy, kaÅ¼dy wÄ™zeÅ‚ w drzewie funkcjonuje jako hasz i
+tablica jednoczeÅ›nie!
 
-Modu³ udostêpnia tak¿e dodatki takie jak poszukiwanie wêz³ów wed³ug
-atrybutów, wybór warto¶ci atrybutu w ka¿dym wê¼le wielokrotnym, zmiana
+ModuÅ‚ udostÄ™pnia takÅ¼e dodatki takie jak poszukiwanie wÄ™zÅ‚Ã³w wedÅ‚ug
+atrybutÃ³w, wybÃ³r wartoÅ›ci atrybutu w kaÅ¼dym wÄ™Åºle wielokrotnym, zmiana
 formatu zwracanych danych itp.
 
 %prep
