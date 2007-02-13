@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Smart
 Summary:	XML::Smart - a smart, easy and powerful way to access/create XML files/data
-Summary(pl.UTF-8):   XML::Smart - zgrabny, łatwy i potężny sposób dostępu i tworzenia plików/danych XML
+Summary(pl.UTF-8):	XML::Smart - zgrabny, łatwy i potężny sposób dostępu i tworzenia plików/danych XML
 Name:		perl-XML-Smart
 Version:	1.6.9
 Release:	1
