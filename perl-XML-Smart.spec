@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	XML
 %define		pnam	Smart
+%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Smart - a smart, easy and powerful way to access/create XML files/data
 Summary(pl.UTF-8):	XML::Smart - zgrabny, łatwy i potężny sposób dostępu i tworzenia plików/danych XML
 Name:		perl-XML-Smart
@@ -15,9 +15,10 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	648309c0d613ddaca6f6b16e9f13c81d
+URL:		http://search.cpan.org/dist/XML-Smart/
+BuildRequires:	perl-Object-MultiType >= 0.03
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	perl-Object-MultiType >= 0.03
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
