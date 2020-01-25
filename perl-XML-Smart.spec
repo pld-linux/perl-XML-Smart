@@ -4,7 +4,6 @@
 
 %define		pdir	XML
 %define		pnam	Smart
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Smart - a smart, easy and powerful way to access/create XML files/data
 Summary(pl.UTF-8):	XML::Smart - zgrabny, łatwy i potężny sposób dostępu i tworzenia plików/danych XML
 Name:		perl-XML-Smart
